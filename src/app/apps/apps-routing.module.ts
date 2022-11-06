@@ -10,6 +10,7 @@ import { FullComponent } from './layout/full/full.component';
 import { RegisterSummaryComponent } from './register/register-summary.component';
 import { PackageComponent } from './package/package.component';
 import { BiodataComponent } from './biodata/biodata.component';
+import { InstallationComponent } from './installation/installation.component';
 
 
 const routes: Routes = [
@@ -17,12 +18,13 @@ const routes: Routes = [
     path: '',
     component: FullComponent,
     children: [
-      { path: '', component: BlogComponent },
+      // { path: '', component: BlogComponent },
+      { path: '', component: InstallationComponent},
       { path: 'blogDetail/:id', component: BlogDetailComponent },
       { path: 'about', component: AboutComponent },
       { path: 'registerSummary', component: RegisterSummaryComponent },
       { path: 'registerPackage', component: PackageComponent },
-      { path: 'registerBiodate', component: BiodataComponent },
+      { path: 'registerBiodata', component: BiodataComponent },
     ]
   }
 ];

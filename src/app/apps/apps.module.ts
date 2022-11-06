@@ -23,6 +23,7 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { RegisterSummaryComponent } from './register/register-summary.component';
 import { BiodataComponent } from './biodata/biodata.component';
 import { PackageComponent } from './package/package.component';
+import { InstallationComponent } from './installation/installation.component';
 
 @NgModule({
   declarations: [
@@ -40,6 +41,7 @@ import { PackageComponent } from './package/package.component';
     RegisterSummaryComponent,
     BiodataComponent,
     PackageComponent,
+    InstallationComponent,
   ],
   imports: [
     CommonModule,

@@ -9066,9 +9066,6 @@ a.text-dark:hover {
   }
 
   .label-5 {
-    -webkit-appearance: none;
-       -moz-appearance: none;
-            appearance: none;
     background-color: #FAFBFC;
     border: 1px solid rgba(27, 31, 35, 0.15);
     border-radius: 6px;
@@ -9079,21 +9076,15 @@ a.text-dark:hover {
     display: inline-block;
     font-size: 13px;
     font-weight: 900;
-    line-height: 24px;
-    list-style: none;
-    padding: 6px 16px;
+    line-height: 32px;
     position: relative;
     transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
-    -moz-user-select: none;
-     -ms-user-select: none;
-         user-select: none;
-    -webkit-user-select: none;
     touch-action: manipulation;
     vertical-align: middle;
-    white-space: nowrap;
+    /* white-space: nowrap; */
     word-wrap: break-word;
-    width: 195px;
-    height: 39px;
+    width: 100%;
+    /* height: 39px; */
     position:relative;
     bottom:30px;
     right:7px;
@@ -9103,6 +9094,15 @@ a.text-dark:hover {
 
   .label-5:active{
     color: #0045B3;
+  }
+
+  .label-6{
+    background-color: #FAFBFC;
+    line-height: 47px;
+    color: #2848a8 !important;
+    border-radius: 9px;
+    font-size: 28px;
+    padding: 0 25px;
   }
 
   .label-4 {
@@ -9149,9 +9149,6 @@ a.text-dark:hover {
   }
 
 .button-4 {
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
   background-color: #FAFBFC;
   border: 1px solid rgba(27, 31, 35, 0.15);
   border-radius: 6px;
@@ -9167,14 +9164,8 @@ a.text-dark:hover {
   padding: 6px 16px;
   position: relative;
   transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
-  -moz-user-select: none;
-   -ms-user-select: none;
-       user-select: none;
-  -webkit-user-select: none;
   touch-action: manipulation;
   vertical-align: middle;
-  white-space: nowrap;
-  word-wrap: break-word;
   width: 120px;
   height: 45px;
 }
@@ -9254,4 +9245,10 @@ a.text-dark:hover {
     left:-27px;
     vertical-align: bottom !important;
 }
+
+.check-custom{
+    width: 41%;
+}
+
+
 
