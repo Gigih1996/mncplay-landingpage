@@ -8,17 +8,36 @@ File: scss
 /******************* 
 This is the font import from the google api 
 *******************/
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800');
-@font-face {
-  font-family: 'Calafia-Regular';
-  src: url('font/Calafia-Regular.eot?#iefix') format('embedded-opentype'),  
-       url('font/Calafia-Regular.otf')  format('opentype'),
-       url('font/Calafia-Regular.woff') format('woff'), 
-         url('font/Calafia-Regular.ttf')  format('truetype'), 
-         url('font/Calafia-Regular.svg#Calafia-Regular') format('svg');
-  font-weight: normal;
-  font-style: normal;
+// @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800');
+// @font-face {
+//   font-family: 'Calafia-Regular';
+//   src: url('font/Calafia-Regular.eot?#iefix') format('embedded-opentype'),  
+//        url('font/Calafia-Regular.otf')  format('opentype'),
+//        url('font/Calafia-Regular.woff') format('woff'), 
+//          url('font/Calafia-Regular.ttf')  format('truetype'), 
+//          url('font/Calafia-Regular.svg#Calafia-Regular') format('svg');
+//   font-weight: normal;
+//   font-style: normal;
+// }
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap");
+.section__heading, .heading-xtra {
+  font-family: "Gotham Bold", "sans-serif";
+  font-weight: 700;
 }
+
+@font-face {
+    font-family: "Gotham Bold";
+    src: url(../fonts/GothamBold.otf);
+  }
+  @font-face {
+    font-family: "Gotham Light";
+    src: url(../fonts/GothamLight.otf);
+  }
+  @font-face {
+    font-family: "Gotham Book";
+    src: url(../fonts/GothamBook.ttf);
+  }
 /******************* 
 Global Styles 
 *******************/
@@ -33,7 +52,7 @@ body {
     background: radial-gradient(circle, rgba(0,212,255,1) 0%, rgba(40,72,168,1) 100%);
     background-size: cover;
     // font-family: $bodyfont;
-    font-family: 'Roboto Slab', serif;
+    font-family: "Gotham light", "sans-serif";
     margin: 0; 
     overflow-x: hidden;
     color: $bodytext;

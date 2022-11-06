@@ -21,6 +21,8 @@ import { BannerComponent } from './shared/banner/banner.component';
 import { BannerNavigationComponent } from './shared/banner-navigation/banner-navigation.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { RegisterSummaryComponent } from './register/register-summary.component';
+import { BiodataComponent } from './biodata/biodata.component';
+import { PackageComponent } from './package/package.component';
 
 @NgModule({
   declarations: [
@@ -36,6 +38,8 @@ import { RegisterSummaryComponent } from './register/register-summary.component'
     BannerNavigationComponent,
     FooterComponent,
     RegisterSummaryComponent,
+    BiodataComponent,
+    PackageComponent,
   ],
   imports: [
     CommonModule,
